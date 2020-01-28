@@ -1396,6 +1396,9 @@ figcaption {
   .div-block-2.right {
     border-radius: 0px 20px 20px 0px;
   }
+  .logo {
+    display: block;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1715,6 +1718,12 @@ figcaption {
   }
   .div-block-2.right {
     display: none;
+  }
+  .div-block-2.right._4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
   .logo {
     display: -webkit-box;
