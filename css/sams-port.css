@@ -1111,9 +1111,20 @@ figcaption {
 }
 
 .work {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-bottom: 0px;
   padding: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-style: none;
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.2);
@@ -1356,7 +1367,7 @@ figcaption {
 
 .div-block-8 {
   width: 50%;
-  margin-top: 16px;
+  margin-top: 32px;
 }
 
 .link-block-3 {
@@ -2939,6 +2950,21 @@ figcaption {
 }
 
 #w-node-f5bd1dabc2a8-b5503f62 {
+  -ms-grid-column-align: auto;
+  justify-self: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-5cb477eca4fb-b5503f62 {
   -ms-grid-column-align: auto;
   justify-self: auto;
   -ms-grid-row-align: auto;
