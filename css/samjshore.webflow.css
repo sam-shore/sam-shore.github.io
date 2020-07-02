@@ -30,6 +30,7 @@ p {
   margin-top: 20px;
   margin-bottom: 10px;
   opacity: 0.8;
+  color: #000;
 }
 
 .s-header {
@@ -743,6 +744,13 @@ p {
   flex-direction: column;
 }
 
+.div-block-78.cent {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 .image-4 {
   max-width: 25%;
   margin-bottom: 16px;
@@ -792,6 +800,12 @@ p {
 
 .image-6 {
   width: 40px;
+}
+
+.rich-text-block {
+  color: #373737;
+  font-size: 16px;
+  text-align: left;
 }
 
 @media screen and (min-width: 1920px) {
